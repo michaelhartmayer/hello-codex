@@ -18,5 +18,7 @@ import { tool } from '@michaelhartmayer/tool';
 
 - Install dependencies: `npm install`
 - Build all packages: `npm run build`
+- Lint TypeScript sources: `npm run lint`
+- Format with Prettier: `npm run format`
 
 New packages can be added under `packages/<name>` with their own `package.json`.
