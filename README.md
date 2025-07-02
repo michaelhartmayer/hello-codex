@@ -18,5 +18,10 @@ import { tool } from '@michaelhartmayer/tool';
 
 - Install dependencies: `npm install`
 - Build all packages: `npm run build`
+- Generate documentation: `npm run docs`
 
 New packages can be added under `packages/<name>` with their own `package.json`.
+
+## Documentation
+
+Run `npm run docs` to build and open the combined documentation for all packages. Each package should include a `typedoc.json` specifying its entry points so it will automatically appear in the docs.

@@ -7,9 +7,14 @@
   ],
   "scripts": {
     "build": "npm run build --workspaces",
-    "test": "echo \"No tests\""
+    "test": "echo \"No tests\"",
+    "docs:build": "typedoc",
+    "docs:open": "open-cli docs/index.html",
+    "docs": "npm run docs:build && npm run docs:open"
   },
   "devDependencies": {
+    "open-cli": "^8.0.0",
+    "typedoc": "^0.28.7",
     "typescript": "^5.2.2"
   }
 }
