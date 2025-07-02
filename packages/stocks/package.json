@@ -1,0 +1,14 @@
+{
+  "name": "@michaelhartmayer/stocks",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.1",
+    "chartjs-node-canvas": "^5.0.0",
+    "yahoo-finance2": "^2.7.1"
+  }
+}
