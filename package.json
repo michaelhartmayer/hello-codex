@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "build": "npm run build --workspaces",
-    "test": "echo \"No tests\""
+    "test": "npm run build && node --test"
   },
   "devDependencies": {
     "typescript": "^5.2.2"
